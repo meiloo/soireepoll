@@ -63,10 +63,38 @@ a {
     }
 }
 
-.subheader {}
+.subheader {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.2;
+    padding: 14px 0;
+}
 
-.content {}
+.content {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    padding: 14px 0;
+}
 
-.footnote {}
+.footnote {
+    color: $dgray;
+    font-family: $josefin;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 12px 0;
+}
 
-.subtitle {}
+.subtitle {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    padding: 14px 0;
+}
