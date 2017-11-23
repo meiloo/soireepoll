@@ -1,3 +1,4 @@
+// En-tetes
 h1,
 h2,
 h3,
@@ -62,9 +63,51 @@ h6 {
     padding: 13px 0;
 }
 
+
+
 p {
     font-size: 16px;
     line-height: 1.25;
+}
+
+
+
+
+// Typographie
+.subheader {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.1;
+    padding: 18px 0;
+}
+
+.content {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.38;
+    padding: 16px 0;
+}
+
+.footnote {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    padding: 14px 0;
+}
+
+.subtitle {
+    color: $gray1;
+    font-family: $josefin;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.43;
+    padding: 14px 0;
 }
 
 a {
@@ -75,40 +118,4 @@ a {
     &:hover {
         color: $electricviolet;
     }
-}
-
-.subheader {
-    color: $gray1;
-    font-family: $josefin;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 2.2;
-    padding: 14px 0;
-}
-
-.content {
-    color: $gray1;
-    font-family: $josefin;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 2;
-    padding: 14px 0;
-}
-
-.footnote {
-    color: $dgray;
-    font-family: $josefin;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.6;
-    padding: 12px 0;
-}
-
-.subtitle {
-    color: $gray1;
-    font-family: $josefin;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 2;
-    padding: 14px 0;
 }
