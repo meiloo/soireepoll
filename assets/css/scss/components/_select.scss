@@ -1,0 +1,13 @@
+.select-dropdowns {
+    border: none;
+    border-bottom: 1px solid $lroyalblue;
+    color: $lroyalblue;
+    display: block;
+    font-weight: 700;
+    padding: 8px;
+    width: 100%;
+    option {
+        font-weight: 700;       
+        
+    }
+}

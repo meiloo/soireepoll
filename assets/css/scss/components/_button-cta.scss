@@ -1,0 +1,59 @@
+.btn-gradient,
+a.btn-gradient {
+    background: $lroyalblue;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, $lroyalblue 0%, $lroyalblue 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, $lroyalblue 0%, $lroyalblue 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, $lroyalblue 0%, $lroyalblue 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lroyalblue', endColorstr='$lroyalblue', GradientType=1);
+    /* IE6-9 */
+    border: none;
+    color: $white;
+    display: inline-block;
+    font-family: $josefin;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 12px;
+    padding: 16px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: $transition;
+    &:hover { 
+
+        background: $electricviolet;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, $lroyalblue 0%, $electricviolet 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, $lroyalblue 0%, $electricviolet 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, $lroyalblue 0%, $electricviolet 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lroyalblue', endColorstr='$electricviolet', GradientType=1);
+        /* IE6-9 */
+        box-shadow: 0 2px 6px 0 rgba(77, 37, 255, .1);
+    }
+}
+
+.btn-standard,
+a.btn-standard {
+    background-color: $white;
+    border: solid 1.5px $lroyalblue;
+    border-radius: 19px;
+    color: $lroyalblue;
+    display: inline-block;
+    font-family: $josefin;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 12px;
+    padding: 15px 12px;
+    text-decoration: none;
+    transition: $transition;
+    &:hover {
+        border-color: $electricviolet;
+        color: $electricviolet;
+    }
+}

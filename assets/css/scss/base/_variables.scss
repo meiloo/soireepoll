@@ -1,0 +1,31 @@
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i');
+$josefin: 'Josefin Sans', sans-serif;
+$crimson: 'Crimson Text', serif;
+
+/*Breakpoints*/
+$xs: 480px !default;
+$sm: 768px !default;
+$md: 992px !default;
+$lg: 1200px !default;
+
+/*Colors*/
+$black: black;
+$dgray: #3F3D47;
+$lgray: #E7E7E7;
+$gray1:#504e59;
+$offwhite: #F6F5FA;
+$white: white;
+$black: black;
+
+$lbluegrey:#e0e3ff;
+
+$lroyalblue: #4d25ff;
+$electricviolet: #844cff;
+$plilac: #e0e3ff;
+
+/* Other */
+$opacity: .9;
+$transition: all ease .3s;

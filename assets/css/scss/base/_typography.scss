@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: $crimson;
+}
+
+h5,
+h6 {
+    font-family: $josefin;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 1.23;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 1.29;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.title-h7 {
+    font-family: $josefin;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+a {
+    font-size: 14px;
+    line-height: 1.43;
+    color: $lroyalblue;
+    transition: $transition;
+    &:hover {
+        color: $electricviolet;
+    }
+}
+
+.subheader {}
+
+.content {}
+
+.footnote {}
+
+.subtitle {}

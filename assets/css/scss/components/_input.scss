@@ -1,0 +1,14 @@
+.input-txt-field {
+    color: $lroyalblue;
+    font-weight: 700;
+    
+    input {
+        color: $lroyalblue;
+        font-weight: 700;
+        padding: 8px;
+        display: block;
+        border: none;
+        border-bottom: 1px solid $lroyalblue;
+        width: 100%;
+    }
+}
