@@ -11,6 +11,12 @@ body {
   color: #504e59;
 }
 
+p {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+/* Elements */
 /*Text colors*/
 .dgray {
   color: #3F3D47;
@@ -59,6 +65,20 @@ body {
 
 .bg-lroyalblue {
   background-color: #4d25ff;
+}
+
+.icon-menu {
+  display: inline-block;
+  height: 16px;
+  width: 18px;
+}
+
+.icon-menu:before {
+  content: '';
+  background-image: url("../svg/icon-nav-open-purple.svg");
+  background-size: cover;
+  position: absolute;
+  margin-right: 10px;
 }
 
 table {
@@ -142,11 +162,6 @@ h6 {
   font-weight: 600;
   line-height: 1.46;
   padding: 13px 0;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.25;
 }
 
 .subheader {

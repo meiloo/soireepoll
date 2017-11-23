@@ -1,0 +1,64 @@
+.icon-menu {
+    display: inline-block;
+    height: 16px;
+    width: 18px;
+    &:before {
+        content: '';
+        background-image: url('../svg/icon-nav-open-purple.svg');
+        background-size:cover;
+        position:absolute;
+        margin-right: 10px;
+    }    
+}
+
+.icon-arrow {
+    &-white {
+    
+    }
+}
+
+.icon-edit {
+
+}
+
+.icon-deconnection {
+    &-white {
+        
+    }
+}
+
+.icon-profil {
+    &-white {
+        
+    }
+}
+
+.icon-facebook {
+    &-white {
+        
+    }
+}
+
+.icon-twitter {
+    &-white {
+        
+    }
+}
+
+.triangle {
+    &-grey {
+
+    }
+
+    &-black {
+        
+    }
+
+    &-red {
+        
+    }
+
+    &-green {
+        
+    }
+}
