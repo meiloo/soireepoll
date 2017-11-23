@@ -1,0 +1,18 @@
+.tendances {
+    .box {
+        background-color: $white;
+        border: solid 1px $bordergrey;
+        padding: 30px 20px;
+
+        div {
+            p {
+                span {
+                    display: table-cell;
+                    &.points {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,8 +1,5 @@
 table {
-    border: 1px solid black;
-    -webkit-border-radius: 10px; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
-    -moz-border-radius: 10px; /* Firefox 1-3.6 */
-    border-radius: 10px; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border: 1px solid $bordergrey;
 
     thead {
         tr th {
@@ -11,10 +8,21 @@ table {
         }
     }
 
-    tr {
-        border: 1px solid black;
-        td {
+    tbody {
+        tr {
+            border: 1px solid $bordergrey;
+            td {
 
+            }
+        }
+    }
+
+    tfoot {
+        tr {
+            border: 1px solid $bordergrey;
+            td {
+
+            }
         }
     }
 }
