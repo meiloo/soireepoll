@@ -5,15 +5,15 @@
 
 /* Elements */
 @import "base/colors";
-@import "base/icons";
-@import "base/table";
 @import "base/typography";
 
 
 /* Components */
 @import "components/button-cta";
+@import "components/icons";
 @import "components/input";
 @import "components/select";
+@import "components/table";
 
 /* Modules */
 @import "modules/hero";

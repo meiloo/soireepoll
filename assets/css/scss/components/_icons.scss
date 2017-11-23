@@ -1,0 +1,96 @@
+.icon {
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    width: 20px;
+
+    &-menu {
+        background: url('../svg/icon-nav-open-purple.svg') 50% 50% no-repeat;
+        &-white {
+            background: url('../svg/icon-nav-close-white.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-arrow {
+        background: url('../svg/icon-dropdown-arrow-purple.svg') 50% 50% no-repeat;
+        &-white {
+            background: url('../svg/icon-dropdown-arrow-white.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-edit {
+        background: url('../img/icons/edit-purple.png') 50% 50% no-repeat;
+        &-white {
+            background: url('../img/icons/edit-white.png') 50% 50% no-repeat;
+        }
+    }
+
+    &-deconnexion {
+        background: url('../svg/icon-deconnexion-purple.svg') 50% 50% no-repeat;
+        &-white {
+            background: url('../svg/icon-deconnexion-white.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-profil {
+        background: url('../svg/icon-profil-purple.svg') 50% 50% no-repeat;
+        &-white {
+            background: url('../svg/icon-profil-white.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-play {
+        &-white {
+            background: url('../img/icons/play-white.png') 50% 50% no-repeat;
+        }
+    }
+
+    &-volume {
+        &-white {
+            background: url('../img/icons/volume-white.png') 50% 50% no-repeat;
+        }
+    }
+
+    &-close {
+        &-white {
+            background: url('../svg/icon-close-white.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-facebook {
+        &-white {
+            background: url('../svg/logo-facebook.svg') 50% 50% no-repeat;
+        }
+    }
+
+    &-twitter {
+        &-white {
+            background: url('../svg/logo-twitter.svg') 50% 50% no-repeat;
+        }
+    }
+}
+
+.icon-table-arrow {
+    display: inline-block;
+    height: 20px;
+    margin-right: 10px;
+    width: 8px;
+
+    &.arrow {
+        &-grey {
+            background: url('../svg/icon-table-arrow-grey.svg') 50% 50% no-repeat;
+        }
+
+        &-black {
+            background: url('../svg/icon-table-arrow-black.svg') 50% 50% no-repeat;
+        }
+
+        &-red {
+            background: url('../svg/icon-table-arrow-red.svg') 50% 50% no-repeat;
+        }
+
+        &-green {
+            background: url('../svg/icon-table-arrow-green.svg') 50% 50% no-repeat;
+        }
+    }
+}
