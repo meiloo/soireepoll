@@ -1,0 +1,89 @@
+.carte-star {
+    .box {
+        background-color: $white;
+        border: solid 1px $bordergrey;
+        padding: 30px 20px;
+        text-align: center;
+
+        .photo-notification {
+            display: inline-block;
+            height: 120px;
+            position: relative;
+            width: 120px;
+
+            .photo-membre {
+                height: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                overflow: hidden;
+                width: 120px;
+
+                -webkit-border-radius: 60px;
+                -moz-border-radius: 60px;
+                border-radius: 60px;
+            }
+
+            .notification-label {
+                background-color: $lroyalblue;
+                color: $white;
+                font-family: $crimson;
+                font-size: 24px;
+                font-weight: bold;
+                height: 24px;
+                line-height: 1;
+                min-width: 24px;
+                overflow-y: hidden;
+                padding: 2px 5px 0 5px;
+                position: absolute;
+                right: 10px;
+                text-align: center;
+                top: 0px;
+                z-index: 5;
+
+                -webkit-border-radius: 12px;
+                -moz-border-radius: 12px;
+                border-radius: 12px;
+
+            }
+        }
+
+        .membre-nom {
+            font-family: $crimson;
+            font-size: 26px;
+            line-height: 1.23;
+        }
+
+        .member-details {
+            display: table;
+            width: 100%;
+            
+            .numbers-row {
+                display: table-row;
+                .cell {
+                    color: $gray1;
+                    display: table-cell;
+                    font-family: $crimson;
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 1.4;
+                    text-align: center;
+                    width: 33.333%;
+                }
+            }
+            .legends-row {
+                display: table-row;
+                .cell {
+                    color: $black;
+                    display: table-cell;
+                    font-family: $josefin;
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 1.46;
+                    text-align: center;
+                    width: 33.333%;
+                }
+            }
+        }
+
+    }
+}
