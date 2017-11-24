@@ -1,0 +1,41 @@
+.ajouter-une-expression {
+    .box {
+        background-color: $white;
+        border: solid 1px $bordergrey;
+        padding: 30px 20px;
+        text-align: center;
+
+        .box-texte-1,
+        .box-texte-2 {
+            color: $gray1;
+            font-family: $josefin;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .box-texte-1 {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .box-texte-2 {
+            font-size: 16px;
+            line-height: 1.25;
+        }
+
+        .box-choisir-une-categorie {
+            margin-bottom: 35px;
+        }
+
+        .box-citation {
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        a {
+            margin: 0 auto;
+        }
+
+    }
+}
