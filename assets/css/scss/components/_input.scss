@@ -1,14 +1,26 @@
 .input-txt-field {
     color: $lroyalblue;
     font-weight: 700;
-    
+
+    label {
+        color: $inputlabelcolor;
+        font-family: $josefin;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.46;
+    }
+
     input {
-        color: $lroyalblue;
-        font-weight: 700;
-        padding: 8px;
-        display: block;
         border: none;
         border-bottom: 1px solid $lroyalblue;
+        color: $lroyalblue;
+        display: block;
+        font-family: $josefin;
+        font-weight: 700;
+        height: 40px;
         width: 100%;
+        &:focus {
+            outline: none;
+        }
     }
 }
