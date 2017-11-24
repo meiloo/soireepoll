@@ -4,10 +4,17 @@
     color: $lroyalblue;
     display: block;
     font-weight: 700;
+    height: 40px;
     padding: 8px;
     width: 100%;
     option {
-        font-weight: 700;       
-        
+        font-weight: 700;
+
+    }
+    &:focus {
+        outline: none;
+    }
+    .select-dropdowns-placeholder {
+        display: none;
     }
 }
