@@ -16,11 +16,20 @@
         color: $lroyalblue;
         display: block;
         font-family: $josefin;
-        font-weight: 700;
+        font-size: 15px;
+        font-weight: 600;
         height: 40px;
+        padding: 8px;
         width: 100%;
         &:focus {
             outline: none;
+        }
+        &::placeholder {
+            color: $lroyalblue;
+            font-family: $josefin;
+            font-size: 15px;
+            font-weight: 600;
+            opacity: 1;
         }
     }
 }

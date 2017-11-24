@@ -4,7 +4,7 @@
     color: $lroyalblue;
     display: block;
     font-family: $josefin;
-    font-weight: 700;
+    font-weight: 600;
     height: 40px;
     padding: 8px;
     width: 100%;
@@ -15,11 +15,13 @@
     &:focus {
         outline: none;
     }
-    &:hover {
-        background-color: $lroyalblue;
-        color: $white;        
-    }
     .select-dropdowns-placeholder {
         display: none;
+    }
+    .select-dropdowns-option {
+        &:hover {
+            background-color: $lroyalblue;
+            color: $white;
+        }
     }
 }
