@@ -119,8 +119,9 @@ table tfoot tr { border: 1px solid #d2cfe6; }
 @media (max-width: 479px) { .hero { height: 320px; }
   .hero h2 { padding-top: 110px; } }
 
-.tendances .box { background-color: white; border: solid 1px #d2cfe6; padding: 30px 20px; }
-.tendances .box div p, .tendances .box div p.title-h7 { margin: 0; padding: 0; }
+.tendances .box { background-color: white; border: solid 1px #d2cfe6; padding: 30px 20px; text-align: center; }
+.tendances .box div a { margin: 0 auto; }
+.tendances .box div p, .tendances .box div p.title-h7 { margin: 0; padding: 0; text-align: left; }
 .tendances .box div p:first-child, .tendances .box div p.title-h7:first-child { padding: 0; }
 .tendances .box div .display-table p span { display: table-cell; width: calc(100% - 60px); }
 .tendances .box div .display-table p span.points { width: 60px; }

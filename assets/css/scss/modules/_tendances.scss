@@ -3,11 +3,16 @@
         background-color: $white;
         border: solid 1px $bordergrey;
         padding: 30px 20px;
+        text-align: center;
 
         div {
+            a {
+                margin: 0 auto;
+            }
             p, p.title-h7 {
                 margin: 0;
                 padding: 0;
+                text-align: left;
 
                 &:first-child {
                     padding: 0;
