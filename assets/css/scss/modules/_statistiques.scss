@@ -1,0 +1,147 @@
+.statistiques {
+    .box {
+        background-color: $white;
+        border: solid 1px $bordergrey;
+        padding: 30px 20px;
+        text-align: left;
+
+        .area-title {
+            color: $gray1;
+            font-family: $josefin;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .bloc-header {
+            display: table;
+            width: 100%;
+            .membre-photo,
+            .membre-nom,
+            .membre-modifier {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .membre-photo {
+                width: 50px;
+                .membre-photo-cercle {
+                    height: 40px;
+                    overflow: hidden;
+                    width: 40px;
+
+                    -webkit-border-radius: 20px;
+                    -moz-border-radius: 20px;
+                    border-radius: 20px;
+                }
+            }
+            .membre-nom {
+                font-family: $crimson;
+                font-size: 21px;
+                line-height: 1.29;
+                text-align: left;
+                color: $gray1;
+            }
+            .membre-modifier {
+                text-align: right;
+            }
+
+        }
+
+        .bloc-classement {
+            display: table;
+            width: 100%;
+
+            .bloc-classement-head,
+            .bloc-classement-data {
+                display: table-row;
+            }
+
+            .bloc-classement-head {
+                color: $categoriesgray;
+                font-family: $josefin;
+                font-size: 12px;
+                font-weight: bold;
+                height: 20px;
+                line-height: 1.5;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .bloc-classement-data {
+                color: $gray1;
+                font-family: $josefin;
+                font-size: 16px;
+                height: 20px;
+                line-height: 1.25;
+                text-align: left;
+            }
+
+            .col1,
+            .col2,
+            .col3,
+            .col4 {
+                display: table-cell;
+            }
+
+            .col1 {
+                width: 10%;
+            }
+            .col2 {
+                padding-left: 8px;
+                width: 20%;
+            }
+            .col3 {
+                width: 30%;
+            }
+            .col4 {
+                width: 40%;
+            }
+
+        }
+
+        .bloc-categorie-head,
+        .bloc-categorie {
+            .display-table {
+                display: table;
+
+                .intitule {
+                    display: table-cell;
+                    width: calc(100% - 60px);
+                }
+
+                .points {
+                    display: table-cell;
+                    width: 60px;
+                }
+
+            }
+        }
+
+        .bloc-categorie-head {
+            color: $categoriesgray;
+            font-family: $josefin;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            width: 100%;
+        }
+
+        .bloc-categorie {
+            .subtitle-h7 {
+                margin: 0;
+                padding: 0 !important;
+                text-align: left;
+            }
+        }
+
+
+    }
+}
+
+div.bloc-categorie { // Do not remove or move. Used here because of a compilation bug.
+    padding-bottom: 15px;
+}
