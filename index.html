@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
-    <head>
-        <title>| ICI Radio-Canada.ca</title>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    </head>
+<head>
+    <title>| ICI Radio-Canada.ca</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
 
 <body>
 
@@ -85,7 +85,9 @@
             <p class="content">Content</p>
             <p class="footnote">Footnote</p>
             <p class="subtitle">Subtitle</p>
-            <p><a href="#">Links</a></p>
+            <p>
+                <a href="#">Links</a>
+            </p>
         </div>
 
         <hr />
@@ -168,37 +170,45 @@
                 </caption>
                 <thead>
                     <tr>
-                        <th>Termes</th>
-                        <th>Points</th>
-                        <th>Samedi</th>
+                        <th colspan="2">#</th>
+                        <th>Nom</th>
+                        <th>Pts</th>
                         <th>Total</th>
-                        <th>Dimanche</th>
-                        <th>Total</th>
-                        <th>Total Weekend</th>
+                        <th>prédiction</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>"LA" (Sida, Mozzarelle, etc...)</td>
-                        <td>+5</td>
-                        <td>- 7 +</td>
-                        <td>35</td>
-                        <td>- 0 +</td>
-                        <td>0</td>
-                        <td><strong>35</strong></td>
+                    <tr class="">
+                        <td class="classement-no">1</td>
+                        <td>
+                            <span class="icon-table-arrow arrow-green"></span>3 </td>
+                        <td class="identifiant">
+                            <div class="membre-photo">
+                                <img src="assets/img/sample.jpg" class="membre-photo-cercle" alt="E Norton" />
+                            </div>
+                            <div class="membre-nom"> A Norton</div>
+                        </td>
+                        <td>- 1</td>
+                        <td>1560</td>
+                        <td>90%</td>
                     </tr>
                     <tr class="even">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="classement-no">2</td>
+                        <td>
+                            <span class="icon-table-arrow arrow-red"></span>1 </td>
+                        <td class="identifiant">
+                            <div class="membre-photo">
+                                <img src="assets/img/sample2.jpg" class="membre-photo-cercle" alt="E Norton" />
+                            </div>
+                            <div class="membre-nom"> F Pratt</div>
+                        </td>
+                        <td>+ 5</td>
+                        <td>1560</td>
+                        <td>90%</td>
                     </tr>
                 </tbody>
                 <tfoot>
-                    <tr>
+                    <tr class="">
                         <th colspan="7">
                             <button class="btn-gradient">Ajouter un terme</button>
                         </th>
@@ -232,7 +242,34 @@
         -->
 
         <!-- Module de navigation -->
-        <header>
+
+        <header class="nav-main">
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="assets\img\logo_lasoiree.png" alt="soirée est encore jeune">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="">Accueil</a>
+                </li>
+                <li>
+                    <a href="#" class="">Voter</a>
+                </li>
+                <li>
+                    <a href="#" class="">Palmarèse</a>
+                </li>
+                <li>
+                    <a href="#" class="">Expressions</a>
+                </li>
+
+            </ul>
+            <div class="identifiant">
+                <div class="membre-photo">
+                    <img src="assets/img/sample.jpg" class="membre-photo-cercle" alt="E Norton" />
+                </div>
+                <div class="membre-nom white"> A Norton</div>
+            </div>
 
         </header>
 
@@ -283,7 +320,8 @@
                     </div>
                     <div class="bloc-classement-data">
                         <div class="col1">3</div>
-                        <div class="col2"><img src="assets/img/icons/arrow-down-red.png" class="sort-icon" alt"" />2</div>
+                        <div class="col2">
+                                <span class="icon-table-arrow arrow-red"></span>2</div>
                         <div class="col3">+120</div>
                         <div class="col4">87,6 %</div>
                     </div>
@@ -328,13 +366,16 @@
                     <p class="title-h7">Termes</p>
                     <div class="display-table">
                         <p>
-                            <span>Micro-agression</span> <span class="points">100 pts</span>
+                            <span>Micro-agression</span>
+                            <span class="points">100 pts</span>
                         </p>
                         <p>
-                            <span>Allusion au (petit) recherchiste</span> <span class="points">5 pts</span>
+                            <span>Allusion au (petit) recherchiste</span>
+                            <span class="points">5 pts</span>
                         </p>
                         <p>
-                            <span>Au Coq BBQ</span> <span class="points">8 pts</span>
+                            <span>Au Coq BBQ</span>
+                            <span class="points">8 pts</span>
                         </p>
                     </div>
 
@@ -345,13 +386,16 @@
                     <p class="title-h7">Blagues</p>
                     <div class="display-table">
                         <p>
-                            <span>Les gens (assistance) + un verbe (huent, applaudissent, rient, etc...)</span> <span class="points">0.5 pts</span>
+                            <span>Les gens (assistance) + un verbe (huent, applaudissent, rient, etc...)</span>
+                            <span class="points">0.5 pts</span>
                         </p>
                         <p>
-                            <span>Un-e ami-e de l'émission/un ami/un (des) collègues</span> <span class="points">7 pts</span>
+                            <span>Un-e ami-e de l'émission/un ami/un (des) collègues</span>
+                            <span class="points">7 pts</span>
                         </p>
                         <p>
-                            <span>Moment-bonheur (ou autre chose-bonheur)</span> <span class="points">10 pts</span>
+                            <span>Moment-bonheur (ou autre chose-bonheur)</span>
+                            <span class="points">10 pts</span>
                         </p>
                     </div>
 
@@ -362,13 +406,16 @@
                     <p class="title-h7">Expressions</p>
                     <div class="display-table">
                         <p>
-                            <span>Joke sur quelqu'un de pas vraiment mort (hors segment morte ou vivante)</span> <span class="points">12 pts</span>
+                            <span>Joke sur quelqu'un de pas vraiment mort (hors segment morte ou vivante)</span>
+                            <span class="points">12 pts</span>
                         </p>
                         <p>
-                            <span>Joke de Jean-Sébastien qui ne connaît pas le sport (Pete Rose, etc.)</span> <span class="points">5 pts</span>
+                            <span>Joke de Jean-Sébastien qui ne connaît pas le sport (Pete Rose, etc.)</span>
+                            <span class="points">5 pts</span>
                         </p>
                         <p>
-                            <span>Joke/allusion au réalisateur qui sue</span> <span class="points">5 pts</span>
+                            <span>Joke/allusion au réalisateur qui sue</span>
+                            <span class="points">5 pts</span>
                         </p>
                     </div>
 
@@ -439,69 +486,72 @@
                         <div class="cell"> Points obtenus </div>
                         <div class="cell"> Total des points </div>
                         <div class="cell"> Victoire </div>
-                </div>
-            </div>
-        </div>
-
-        <hr />
-
-        <!-- Module Termes récurrents -->
-        <div class="termes-recurrents">
-            <h2 class="title-h1">Termes récurrents</h2>
-            <div class="duo-box">
-                <div class="box">
-                    <div class="box-titre-1">
-                        Termes récurrents
-                    </div>
-
-                    <div class="box-sous-titre-1">
-                        Mes choix
-                    </div>
-
-                    <div class="choix">
-                        <select class="select-dropdowns" name="option-1">
-                            <option value="" disabled selected class="select-dropdowns-placeholder">Choisir un terme</option>
-                            <option value="1" class="select-dropdowns-option">Mogol +5 pts</option>
-                            <option value="2" class="select-dropdowns-option">Chinois +6 pts</option>
-                            <option value="3" class="select-dropdowns-option">Japonais +8pts</option>
-                        </select>
-                    </div>
-
-                    <div class="choix">
-                        <select class="select-dropdowns" name="option-2">
-                            <option value="" disabled selected class="select-dropdowns-placeholder">Choisir un terme</option>
-                            <option value="1" class="select-dropdowns-option">Chapeau (hors segment) +15 pts</option>
-                            <option value="2" class="select-dropdowns-option">Bravo (hors segment) +17 pts</option>
-                            <option value="3" class="select-dropdowns-option">Bof (hors segmant) + 3 pts</option>
-                        </select>
-                    </div>
-
-                    <a class="btn-gradient" href="#">Soumettre</a>
-                </div>
-                <div class="box-under">
-                    <p class="title-h7">
-                        Termes tendances
-                    </p>
-                    <div class="display-table">
-                        <p>
-                            <span>« LA » (Sida, Mozarelle, etc.)</span> <span class="points">+ 45</span>
-                        </p>
-                        <p>
-                            <span>Allusion au (petit) recherchiste</span> <span class="points">+ 75</span>
-                        </p>
-                        <p>
-                            <span>Rapidement/Allez-y/Continuez</span> <span class="points">+ 1</span>
-                        </p>
                     </div>
                 </div>
             </div>
 
+            <hr />
+
+            <!-- Module Termes récurrents -->
+            <div class="termes-recurrents">
+                <h2 class="title-h1">Termes récurrents</h2>
+                <div class="duo-box">
+                    <div class="box">
+                        <div class="box-titre-1">
+                            Termes récurrents
+                        </div>
+
+                        <div class="box-sous-titre-1">
+                            Mes choix
+                        </div>
+
+                        <div class="choix">
+                            <select class="select-dropdowns" name="option-1">
+                                <option value="" disabled selected class="select-dropdowns-placeholder">Choisir un terme</option>
+                                <option value="1" class="select-dropdowns-option">Mogol +5 pts</option>
+                                <option value="2" class="select-dropdowns-option">Chinois +6 pts</option>
+                                <option value="3" class="select-dropdowns-option">Japonais +8pts</option>
+                            </select>
+                        </div>
+
+                        <div class="choix">
+                            <select class="select-dropdowns" name="option-2">
+                                <option value="" disabled selected class="select-dropdowns-placeholder">Choisir un terme</option>
+                                <option value="1" class="select-dropdowns-option">Chapeau (hors segment) +15 pts</option>
+                                <option value="2" class="select-dropdowns-option">Bravo (hors segment) +17 pts</option>
+                                <option value="3" class="select-dropdowns-option">Bof (hors segmant) + 3 pts</option>
+                            </select>
+                        </div>
+
+                        <a class="btn-gradient" href="#">Soumettre</a>
+                    </div>
+                    <div class="box-under">
+                        <p class="title-h7">
+                            Termes tendances
+                        </p>
+                        <div class="display-table">
+                            <p>
+                                <span>« LA » (Sida, Mozarelle, etc.)</span>
+                                <span class="points">+ 45</span>
+                            </p>
+                            <p>
+                                <span>Allusion au (petit) recherchiste</span>
+                                <span class="points">+ 75</span>
+                            </p>
+                            <p>
+                                <span>Rapidement/Allez-y/Continuez</span>
+                                <span class="points">+ 1</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr />
+
+
         </div>
-
-        <hr />
-
-
-    </div>
 </body>
 
 </html>

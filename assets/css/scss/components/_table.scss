@@ -1,30 +1,66 @@
 table {
+    border-collapse: collapse;
     border: 1px solid $bordergrey;
-
+    width: 100%;
+    th,
+    td {
+        padding: 10px 25px;
+        border-top: 1px solid $bordergrey;
+        border-bottom: 1px solid $bordergrey;
+        &:last-child {
+            border-right: 1px solid $bordergrey;
+        }
+        
+    }
     thead {
         tr th {
-            color: $dgray;
+            color: $categoriesgray;
+            font-size: 12px;
+            text-align: left;
             text-transform: uppercase;
+            width: 20%;
+            &:first-child {
+                color: $dgray;
+            }
         }
     }
-
     tbody {
         tr {
-            border: 1px solid $bordergrey;
             td {
-
+                text-align: left;
             }
         }
     }
-
     tfoot {
-        tr {
-            border: 1px solid $bordergrey;
-            td {
-
+        tr {}
+    }
+    .classement-no {
+        width: 6%;
+    }
+    .border-top{
+        border-top: 1px solid $bordergrey;
+        border-right: 1px solid $bordergrey;
+    }
+    .identifiant {
+        .membre-photo {
+            padding-right: 6px;
+            width: auto;
+            .membre-photo-cercle {
+                -webkit-border-radius: 11px;
+                -moz-border-radius: 11px;
+                border-radius: 11px;
+                height: 22px;
+                width: 22px;
             }
         }
+        .membre-nom {
+            font-size: 16px;
+        }
     }
+}
+
+.even {
+    background: $lbluegrey;
 }
 
 .display-table {

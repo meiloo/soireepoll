@@ -1,0 +1,47 @@
+.identifiant {
+    .membre-photo,
+    .membre-nom,
+    .membre-modifier {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .membre-photo {
+        width: 50px;
+        .membre-photo-cercle {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            height: 40px;
+            overflow: hidden;
+            width: 40px;
+        }
+    }
+    .membre-nom {
+        font-family: $crimson;
+        font-size: 21px;
+        line-height: 1.29;
+        text-align: left;
+    }
+    .membre-modifier {
+        text-align: right;
+    }
+}
+
+@include hs-under {
+    .identifiant {
+        padding: 10px 20px;
+        width: 100%;
+        .membre-photo {
+            .membre-photo-cercle {
+                height: 60px;
+                -moz-border-radius: 30px;
+                border-radius: 30px;
+                width: 60px;
+            }
+        }
+        .membre-nom {
+            padding: 0 10px;
+            font-size: 15px;
+        }
+    }
+}
